@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+#form{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  /* background-color: blueviolet; */
+}
+#input{
+ width: 70%;
+ height: 30px;
+ border-radius: 2px;
+ border: 1px;
+}
+#input:focus{
+  outline: none;
+}
+#container{
+  margin-top: 20px;
+  display: inline-block;
+  width: 30%;
+  background-color: lightslategrey;
+  height: fit-content;
+  border-radius: 10px;
+}
+#btn{
+  height: 36px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  width: 50px;
+  background-color: rgb(1, 197, 1);
+}
+#btn:hover{
+  background-color: rgb(45, 147, 45);
+}
+#store{
+  font-size: 18px;
+  font-variant: small-caps;
+}
